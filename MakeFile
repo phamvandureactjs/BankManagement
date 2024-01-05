@@ -1,0 +1,5 @@
+all:
+	@g++ main.cpp -IC:\\json\\json-develop\\include -o main
+	@./main
+clean:
+	@del main.exe
