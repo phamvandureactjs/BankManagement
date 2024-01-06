@@ -10,8 +10,8 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"-IC:\\json\\json-develop\\include"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			
 			],
 			"options": {
 				"cwd": "${fileDirname}"
