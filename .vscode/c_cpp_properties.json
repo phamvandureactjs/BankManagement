@@ -3,15 +3,16 @@
     {
       "name": "windows-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:/Json/json-develop/include"
       ],
       "defines": [
         "_DEBUG",
         "UNICODE",
         "_UNICODE"
       ],
-      "cStandard": "c11",
-      "cppStandard": "gnu++14",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
       "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
       "intelliSenseMode": "windows-gcc-x64"
     }

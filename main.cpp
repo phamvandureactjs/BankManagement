@@ -4,6 +4,9 @@
 #include <string.h>
 #include <chrono>
 #include <thread>
+#include "nlohmann/json.hpp"
+
+using json = nlohmann::json;
 using namespace std;
 struct InfoPersonal
 {
